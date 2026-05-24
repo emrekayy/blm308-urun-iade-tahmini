@@ -26,6 +26,7 @@ from src.utils import DATA_PROCESSED_DIR, FIGURES_DIR, REPORTS_DIR  # noqa: E402
 
 STUDENT_NAME = "Emre Kaya"
 STUDENT_NUMBER = "231041045"
+GITHUB_REPO_URL = "https://github.com/emrekayy/blm308-urun-iade-tahmini"
 AI_STATEMENT = "Proje yapılırken yapay zeka araçlarından yararlanılmıştır."
 
 PDF_FONT = "ReportFont"
@@ -122,6 +123,7 @@ def build_report() -> Path:
     add_paragraph(document, f"Öğrenci Numarası: {STUDENT_NUMBER}")
     add_paragraph(document, "Ders: BLM308 Veri Madenciliği")
     add_paragraph(document, "Teslim Tarihi: Mayıs 2026")
+    add_paragraph(document, f"GitHub Deposu: {GITHUB_REPO_URL}")
 
     add_heading(document, "Proje Görev Dağılımı", level=1)
     add_paragraph(
@@ -413,6 +415,7 @@ def build_pdf_report() -> Path:
             f"Öğrenci Numarası: {STUDENT_NUMBER}",
             "Ders: BLM308 Veri Madenciliği",
             "Teslim Tarihi: Mayıs 2026",
+            f"GitHub Deposu: {GITHUB_REPO_URL}",
         ]),
         ("Proje Görev Dağılımı", [
             f"Bu proje bireysel olarak {STUDENT_NAME} tarafından gerçekleştirilmiştir. "

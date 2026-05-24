@@ -17,6 +17,7 @@ from src.utils import DATA_PROCESSED_DIR, FIGURES_DIR  # noqa: E402
 
 STUDENT_NAME = "Emre Kaya"
 STUDENT_NUMBER = "231041045"
+GITHUB_REPO_URL = "https://github.com/emrekayy/blm308-urun-iade-tahmini"
 
 
 def load_json(path: Path) -> dict:
@@ -74,7 +75,7 @@ def build_presentation() -> Path:
     add_title_slide(
         prs,
         "Çevrimiçi Alışveriş Ürün İade Tahmini",
-        "BLM308 Veri Madenciliği Final Projesi\nEmre Kaya | 231041045 | Mayıs 2026",
+        f"BLM308 Veri Madenciliği Final Projesi\nEmre Kaya | 231041045 | Mayıs 2026\n{GITHUB_REPO_URL}",
     )
 
     add_bullet_slide(

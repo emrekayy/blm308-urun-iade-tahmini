@@ -9,6 +9,8 @@ Bu proje, e-ticaret siparişlerinde ürün iadesinin (`return_status`) makine ö
 
 **Öğrenci:** Emre Kaya | **No:** 231041045 | **Ders:** BLM308 Veri Madenciliği
 
+**GitHub:** https://github.com/emrekayy/blm308-urun-iade-tahmini
+
 ---
 
 ## Proje Özeti
@@ -59,8 +61,8 @@ Bu proje, e-ticaret siparişlerinde ürün iadesinin (`return_status`) makine ö
 ## Kurulum
 
 ```bash
-git clone <repo-url>
-cd "veri madenciligi Final proje"
+git clone https://github.com/emrekayy/blm308-urun-iade-tahmini.git
+cd blm308-urun-iade-tahmini
 
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
