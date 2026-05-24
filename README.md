@@ -189,12 +189,6 @@ Pipeline çalıştırıldıktan sonra `reports/figures/` altında üretilen graf
 
 ---
 
-## Yapay Zeka Kullanım Beyanı
-
-Proje yapılırken yapay zeka araçlarından yararlanılmıştır.
-
----
-
 ## Lisans
 
 Bu proje BLM308 Veri Madenciliği dersi kapsamında akademik amaçla hazırlanmıştır.

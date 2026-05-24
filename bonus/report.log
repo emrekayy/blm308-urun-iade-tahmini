@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.17)  24 MAY 2026 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.17)  24 MAY 2026 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,14 +420,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 ...ay Zeka Kullanım Beyanı}{26}{chapter.16}
+l.20 ...ay Zeka Kullanım Beyanı}{27}{chapter.16}
                                                   % [1
 
 ])
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [2] [3
+ [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 48.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 48.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 48.
+ [3
 
 {/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
  [4
@@ -459,7 +466,7 @@ B\"ol\"um 6.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \textwidth 
-l.103 ....75\textwidth]{01_class_distribution.png}
+l.104 ....75\textwidth]{01_class_distribution.png}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -467,7 +474,7 @@ not appear between \csname and \endcsname.
 ! Missing number, treated as zero.
 <to be read again> 
                    \endcsname 
-l.103 ....75\textwidth]{01_class_distribution.png}
+l.104 ....75\textwidth]{01_class_distribution.png}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -476,7 +483,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \endcsname 
-l.103 ....75\textwidth]{01_class_distribution.png}
+l.104 ....75\textwidth]{01_class_distribution.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -488,7 +495,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra \endcsname.
 <recently read> \endcsname 
                            
-l.103 ....75\textwidth]{01_class_distribution.png}
+l.104 ....75\textwidth]{01_class_distribution.png}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -499,32 +506,26 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 ....75\textwidth]{01_class_distribution.png}
+l.104 ....75\textwidth]{01_class_distribution.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<../reports/figures/01_class_distribution.png, id=160, 505.89pt x 361.35pt>
+<../reports/figures/01_class_distribution.png, id=163, 505.89pt x 361.35pt>
 File: ../reports/figures/01_class_distribution.png Graphic file (type png)
 <use ../reports/figures/01_class_distribution.png>
 Package pdftex.def Info: ../reports/figures/01_class_distribution.png  used on 
-input line 103.
+input line 104.
 (pdftex.def)             Requested size: 505.88875pt x 361.34912pt.
 
-Overfull \hbox (50.64464pt too wide) in paragraph at lines 103--104
+Overfull \hbox (50.64464pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 104.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 104.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 104.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \textwidth 
-l.109 ...th=0.8\textwidth]{03_price_vs_return.png}
+l.110 ...th=0.8\textwidth]{03_price_vs_return.png}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -532,7 +533,7 @@ not appear between \csname and \endcsname.
 ! Missing number, treated as zero.
 <to be read again> 
                    \endcsname 
-l.109 ...th=0.8\textwidth]{03_price_vs_return.png}
+l.110 ...th=0.8\textwidth]{03_price_vs_return.png}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -541,7 +542,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \endcsname 
-l.109 ...th=0.8\textwidth]{03_price_vs_return.png}
+l.110 ...th=0.8\textwidth]{03_price_vs_return.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -553,7 +554,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra \endcsname.
 <recently read> \endcsname 
                            
-l.109 ...th=0.8\textwidth]{03_price_vs_return.png}
+l.110 ...th=0.8\textwidth]{03_price_vs_return.png}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -564,19 +565,19 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...th=0.8\textwidth]{03_price_vs_return.png}
+l.110 ...th=0.8\textwidth]{03_price_vs_return.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<../reports/figures/03_price_vs_return.png, id=162, 578.16pt x 361.35pt>
+<../reports/figures/03_price_vs_return.png, id=165, 578.16pt x 361.35pt>
 File: ../reports/figures/03_price_vs_return.png Graphic file (type png)
 <use ../reports/figures/03_price_vs_return.png>
 Package pdftex.def Info: ../reports/figures/03_price_vs_return.png  used on inp
-ut line 109.
+ut line 110.
 (pdftex.def)             Requested size: 578.15858pt x 361.34912pt.
 
-Overfull \hbox (122.91447pt too wide) in paragraph at lines 109--110
+Overfull \hbox (122.91447pt too wide) in paragraph at lines 110--111
  [][] 
  []
 
@@ -586,7 +587,7 @@ Overfull \hbox (122.91447pt too wide) in paragraph at lines 109--110
 ! Missing \endcsname inserted.
 <to be read again> 
                    \textwidth 
-l.115 ....8\textwidth]{05_rating_distribution.png}
+l.116 ....8\textwidth]{05_rating_distribution.png}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -594,7 +595,7 @@ not appear between \csname and \endcsname.
 ! Missing number, treated as zero.
 <to be read again> 
                    \endcsname 
-l.115 ....8\textwidth]{05_rating_distribution.png}
+l.116 ....8\textwidth]{05_rating_distribution.png}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -603,7 +604,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \endcsname 
-l.115 ....8\textwidth]{05_rating_distribution.png}
+l.116 ....8\textwidth]{05_rating_distribution.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -615,7 +616,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra \endcsname.
 <recently read> \endcsname 
                            
-l.115 ....8\textwidth]{05_rating_distribution.png}
+l.116 ....8\textwidth]{05_rating_distribution.png}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -626,19 +627,19 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 ....8\textwidth]{05_rating_distribution.png}
+l.116 ....8\textwidth]{05_rating_distribution.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<../reports/figures/05_rating_distribution.png, id=170, 578.16pt x 361.35pt>
+<../reports/figures/05_rating_distribution.png, id=173, 578.16pt x 361.35pt>
 File: ../reports/figures/05_rating_distribution.png Graphic file (type png)
 <use ../reports/figures/05_rating_distribution.png>
 Package pdftex.def Info: ../reports/figures/05_rating_distribution.png  used on
- input line 115.
+ input line 116.
 (pdftex.def)             Requested size: 578.15858pt x 361.34912pt.
 
-Overfull \hbox (122.91447pt too wide) in paragraph at lines 115--116
+Overfull \hbox (122.91447pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
@@ -646,7 +647,7 @@ Overfull \hbox (122.91447pt too wide) in paragraph at lines 115--116
 ! Missing \endcsname inserted.
 <to be read again> 
                    \textwidth 
-l.121 ...75\textwidth]{07_correlation_heatmap.png}
+l.122 ...75\textwidth]{07_correlation_heatmap.png}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -654,7 +655,7 @@ not appear between \csname and \endcsname.
 ! Missing number, treated as zero.
 <to be read again> 
                    \endcsname 
-l.121 ...75\textwidth]{07_correlation_heatmap.png}
+l.122 ...75\textwidth]{07_correlation_heatmap.png}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -663,7 +664,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \endcsname 
-l.121 ...75\textwidth]{07_correlation_heatmap.png}
+l.122 ...75\textwidth]{07_correlation_heatmap.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -675,7 +676,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra \endcsname.
 <recently read> \endcsname 
                            
-l.121 ...75\textwidth]{07_correlation_heatmap.png}
+l.122 ...75\textwidth]{07_correlation_heatmap.png}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -686,19 +687,19 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 ...75\textwidth]{07_correlation_heatmap.png}
+l.122 ...75\textwidth]{07_correlation_heatmap.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<../reports/figures/07_correlation_heatmap.png, id=178, 578.16pt x 433.62pt>
+<../reports/figures/07_correlation_heatmap.png, id=181, 578.16pt x 433.62pt>
 File: ../reports/figures/07_correlation_heatmap.png Graphic file (type png)
 <use ../reports/figures/07_correlation_heatmap.png>
 Package pdftex.def Info: ../reports/figures/07_correlation_heatmap.png  used on
- input line 121.
+ input line 122.
 (pdftex.def)             Requested size: 578.15858pt x 433.61894pt.
 
-Overfull \hbox (122.91447pt too wide) in paragraph at lines 121--122
+Overfull \hbox (122.91447pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
@@ -724,7 +725,7 @@ B\"ol\"um 11.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \textwidth 
-l.197 ...idth]{08_confusion_matrix_best_model.png}
+l.198 ...idth]{08_confusion_matrix_best_model.png}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -732,7 +733,7 @@ not appear between \csname and \endcsname.
 ! Missing number, treated as zero.
 <to be read again> 
                    \endcsname 
-l.197 ...idth]{08_confusion_matrix_best_model.png}
+l.198 ...idth]{08_confusion_matrix_best_model.png}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -741,7 +742,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \endcsname 
-l.197 ...idth]{08_confusion_matrix_best_model.png}
+l.198 ...idth]{08_confusion_matrix_best_model.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -753,7 +754,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra \endcsname.
 <recently read> \endcsname 
                            
-l.197 ...idth]{08_confusion_matrix_best_model.png}
+l.198 ...idth]{08_confusion_matrix_best_model.png}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -764,18 +765,18 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.197 ...idth]{08_confusion_matrix_best_model.png}
+l.198 ...idth]{08_confusion_matrix_best_model.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<../reports/figures/08_confusion_matrix_best_model.png, id=209, 433.62pt x 361.
+<../reports/figures/08_confusion_matrix_best_model.png, id=212, 433.62pt x 361.
 35pt>
 File: ../reports/figures/08_confusion_matrix_best_model.png Graphic file (type 
 png)
 <use ../reports/figures/08_confusion_matrix_best_model.png>
 Package pdftex.def Info: ../reports/figures/08_confusion_matrix_best_model.png 
- used on input line 197.
+ used on input line 198.
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
 [19
 
@@ -783,7 +784,7 @@ Package pdftex.def Info: ../reports/figures/08_confusion_matrix_best_model.png
 ! Missing \endcsname inserted.
 <to be read again> 
                    \textwidth 
-l.203 ...5\textwidth]{09_roc_curve_best_model.png}
+l.204 ...5\textwidth]{09_roc_curve_best_model.png}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -791,7 +792,7 @@ not appear between \csname and \endcsname.
 ! Missing number, treated as zero.
 <to be read again> 
                    \endcsname 
-l.203 ...5\textwidth]{09_roc_curve_best_model.png}
+l.204 ...5\textwidth]{09_roc_curve_best_model.png}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -800,7 +801,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \endcsname 
-l.203 ...5\textwidth]{09_roc_curve_best_model.png}
+l.204 ...5\textwidth]{09_roc_curve_best_model.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -812,7 +813,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra \endcsname.
 <recently read> \endcsname 
                            
-l.203 ...5\textwidth]{09_roc_curve_best_model.png}
+l.204 ...5\textwidth]{09_roc_curve_best_model.png}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -823,19 +824,19 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 ...5\textwidth]{09_roc_curve_best_model.png}
+l.204 ...5\textwidth]{09_roc_curve_best_model.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<../reports/figures/09_roc_curve_best_model.png, id=215, 505.89pt x 361.35pt>
+<../reports/figures/09_roc_curve_best_model.png, id=218, 505.89pt x 361.35pt>
 File: ../reports/figures/09_roc_curve_best_model.png Graphic file (type png)
 <use ../reports/figures/09_roc_curve_best_model.png>
 Package pdftex.def Info: ../reports/figures/09_roc_curve_best_model.png  used o
-n input line 203.
+n input line 204.
 (pdftex.def)             Requested size: 505.88875pt x 361.34912pt.
 
-Overfull \hbox (50.64464pt too wide) in paragraph at lines 203--204
+Overfull \hbox (50.64464pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
@@ -843,7 +844,7 @@ Overfull \hbox (50.64464pt too wide) in paragraph at lines 203--204
 ! Missing \endcsname inserted.
 <to be read again> 
                    \textwidth 
-l.209 ...{10_feature_importance_random_forest.png}
+l.210 ...{10_feature_importance_random_forest.png}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -851,7 +852,7 @@ not appear between \csname and \endcsname.
 ! Missing number, treated as zero.
 <to be read again> 
                    \endcsname 
-l.209 ...{10_feature_importance_random_forest.png}
+l.210 ...{10_feature_importance_random_forest.png}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -860,7 +861,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \endcsname 
-l.209 ...{10_feature_importance_random_forest.png}
+l.210 ...{10_feature_importance_random_forest.png}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -872,7 +873,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra \endcsname.
 <recently read> \endcsname 
                            
-l.209 ...{10_feature_importance_random_forest.png}
+l.210 ...{10_feature_importance_random_forest.png}
                                                   
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -883,21 +884,21 @@ See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 ...{10_feature_importance_random_forest.png}
+l.210 ...{10_feature_importance_random_forest.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<../reports/figures/10_feature_importance_random_forest.png, id=222, 578.16pt x
+<../reports/figures/10_feature_importance_random_forest.png, id=225, 578.16pt x
  361.35pt>
 File: ../reports/figures/10_feature_importance_random_forest.png Graphic file (
 type png)
 <use ../reports/figures/10_feature_importance_random_forest.png>
 Package pdftex.def Info: ../reports/figures/10_feature_importance_random_forest
-.png  used on input line 209.
+.png  used on input line 210.
 (pdftex.def)             Requested size: 578.15858pt x 361.34912pt.
 
-Overfull \hbox (122.91447pt too wide) in paragraph at lines 209--210
+Overfull \hbox (122.91447pt too wide) in paragraph at lines 210--211
  [][] 
  []
 
@@ -918,41 +919,49 @@ B\"ol\"um 14.
 B\"ol\"um 15.
 [26
 
-]
-B\"ol\"um 16.
-[27
-
-] [28
+] [27
 
 ] (./report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-04-28>
  ***********
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 75EDC6CB89C020D24309BD75508C2E66;3003.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 75EDC6CB89C020D24309BD75508C2E66;3003
+(rerunfilecheck)             After:  A5E622CD5A30ABF3B678ED7550E52987;2813.
  ) 
 Here is how much of TeX's memory you used:
- 12518 strings out of 467341
- 205450 string characters out of 5415375
- 633801 words of memory out of 5000000
- 41412 multiletter control sequences out of 15000+600000
- 638876 words of font info for 63 fonts, out of 8000000 for 9000
+ 12519 strings out of 467341
+ 205467 string characters out of 5415375
+ 633857 words of memory out of 5000000
+ 41413 multiletter control sequences out of 15000+600000
+ 639189 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,340b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><
-/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></u
-sr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr
-/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/l
-ocal/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/loc
-al/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local
-/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/t
-exlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on report.pdf (29 pages, 448199 bytes).
+
+pdfTeX warning (dest): name{chapter.16} has been referenced but does not exist,
+ replaced by a fixed one
+
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
+sr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr
+/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/l
+ocal/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loc
+al/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local
+/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/t
+exlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/tex
+live/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on report.pdf (28 pages, 476934 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,4 +17,3 @@
 \contentsline {chapter}{\numberline {13}İş Yorumu}{24}{chapter.13}%
 \contentsline {chapter}{\numberline {14}Kısıtlamalar}{25}{chapter.14}%
 \contentsline {chapter}{\numberline {15}Gelecek Çalışmalar}{26}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Yapay Zeka Kullanım Beyanı}{27}{chapter.16}%
