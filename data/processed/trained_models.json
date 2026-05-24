@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "name": "Decision Tree",
+      "path": "data/processed/models/decision_tree.joblib"
+    },
+    {
+      "name": "Random Forest",
+      "path": "data/processed/models/random_forest.joblib"
+    },
+    {
+      "name": "Logistic Regression",
+      "path": "data/processed/models/logistic_regression.joblib"
+    },
+    {
+      "name": "Naive Bayes",
+      "path": "data/processed/models/naive_bayes.joblib"
+    },
+    {
+      "name": "KNN",
+      "path": "data/processed/models/knn.joblib"
+    }
+  ],
+  "feature_names": [
+    "price",
+    "rating",
+    "product_id_frequency",
+    "product_return_rate"
+  ]
+}

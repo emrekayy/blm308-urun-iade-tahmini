@@ -1,0 +1,88 @@
+{
+  "dataset_file": "product_return_prediction.csv",
+  "inspection": {
+    "shape": [
+      1500,
+      5
+    ],
+    "columns": [
+      "order_id",
+      "product_id",
+      "price",
+      "rating",
+      "return_status"
+    ],
+    "target_column": "return_status",
+    "numeric_columns": [
+      "price",
+      "rating",
+      "return_status"
+    ],
+    "categorical_columns": [
+      "order_id",
+      "product_id"
+    ],
+    "missing_values": {
+      "order_id": 0,
+      "product_id": 0,
+      "price": 0,
+      "rating": 0,
+      "return_status": 0
+    },
+    "class_distribution": {
+      "0": 1094,
+      "1": 406
+    }
+  },
+  "eda": {
+    "skipped_charts": [
+      "Return rate by category (no category column found)",
+      "Discount vs return (no discount column found)",
+      "Delivery time vs return (no delivery time column found)"
+    ],
+    "generated_charts": [
+      "01_class_distribution.png",
+      "03_price_vs_return.png",
+      "05_rating_distribution.png",
+      "05b_rating_vs_return.png",
+      "07_correlation_heatmap.png",
+      "08_confusion_matrix_best_model.png",
+      "09_roc_curve_best_model.png",
+      "10_feature_importance_random_forest.png"
+    ]
+  },
+  "processing": {
+    "feature_columns": [
+      "price",
+      "rating",
+      "product_id_frequency",
+      "product_return_rate"
+    ],
+    "dropped_columns": [
+      "order_id",
+      "product_id"
+    ],
+    "product_encoding": {
+      "method": "frequency_and_train_return_rate",
+      "product_id_frequency": "Count of each product_id in the training set",
+      "product_return_rate": "Mean return_status per product_id computed on training set only",
+      "unseen_product_return_rate_fallback": 0.2708333333333333,
+      "unseen_product_frequency_fallback": 0,
+      "unseen_products_in_test": 78,
+      "unique_products_in_train": 652
+    },
+    "numeric_columns_scaled": [
+      "price",
+      "rating",
+      "product_id_frequency",
+      "product_return_rate"
+    ],
+    "scaler_fit_on": "training_set_only"
+  },
+  "split": {
+    "train_size": 1200,
+    "test_size": 300,
+    "random_state": 42,
+    "split_before_target_encoding": true
+  }
+}

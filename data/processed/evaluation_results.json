@@ -1,0 +1,80 @@
+{
+  "cv_folds": 10,
+  "cv_data": "training_set_only",
+  "cv_encoding": "per_fold_product_features",
+  "cv_samples": 1200,
+  "test_samples": 300,
+  "model_selection_metric": "F1-Score",
+  "feature_columns": [
+    "price",
+    "rating",
+    "product_id_frequency",
+    "product_return_rate"
+  ],
+  "comparison_table": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.6716666666666666,
+      "Precision": 0.35506991584175385,
+      "Recall": 0.2733901515151515,
+      "F1-Score": 0.30645196830909593,
+      "ROC-AUC": 0.5333344898336817
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.6275000000000001,
+      "Precision": 0.2960069445796582,
+      "Recall": 0.27329545454545456,
+      "F1-Score": 0.2822387793587999,
+      "ROC-AUC": 0.5171557982845699
+    },
+    {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.6633333333333333,
+      "Precision": 0.3303369534948482,
+      "Recall": 0.24545454545454545,
+      "F1-Score": 0.27911425848098353,
+      "ROC-AUC": 0.5765767861807733
+    },
+    {
+      "Model": "KNN",
+      "Accuracy": 0.6691666666666667,
+      "Precision": 0.32986942903158073,
+      "Recall": 0.22689393939393937,
+      "F1-Score": 0.26625751000048764,
+      "ROC-AUC": 0.5199079969958202
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.6683333333333333,
+      "Precision": 0.3269910824301556,
+      "Recall": 0.22698863636363634,
+      "F1-Score": 0.264604993398458,
+      "ROC-AUC": 0.5712521225182863
+    }
+  ],
+  "best_model": "Random Forest",
+  "test_metrics": {
+    "model": "Random Forest",
+    "accuracy": 0.6466666666666666,
+    "precision": 0.2727272727272727,
+    "recall": 0.18518518518518517,
+    "f1_score": 0.22058823529411764,
+    "roc_auc": 0.4792547494221771
+  },
+  "confusion_matrix": [
+    [
+      179,
+      40
+    ],
+    [
+      66,
+      15
+    ]
+  ],
+  "figures": {
+    "confusion_matrix": "reports/figures/08_confusion_matrix_best_model.png",
+    "roc_curve": "reports/figures/09_roc_curve_best_model.png",
+    "feature_importance": "reports/figures/10_feature_importance_random_forest.png"
+  }
+}
