@@ -27,6 +27,7 @@ from src.utils import DATA_PROCESSED_DIR, FIGURES_DIR, REPORTS_DIR  # noqa: E402
 STUDENT_NAME = "Emre Kaya"
 STUDENT_NUMBER = "231041045"
 GITHUB_REPO_URL = "https://github.com/emrekayy/blm308-urun-iade-tahmini"
+AI_STATEMENT = "Yapay zeka araçları kullanılmıştır."
 
 PDF_FONT = "ReportFont"
 PDF_FONT_PATHS = [
@@ -356,7 +357,10 @@ def build_report() -> Path:
         ],
     )
 
-    add_heading(document, "16. Kaynaklar", level=1)
+    add_heading(document, "16. Yapay Zeka Kullanım Beyanı", level=1)
+    add_paragraph(document, AI_STATEMENT)
+
+    add_heading(document, "17. Kaynaklar", level=1)
     add_bullet_list(
         document,
         [
@@ -485,7 +489,10 @@ def build_pdf_report() -> Path:
         ("15. Gelecek Çalışmalar", [
             "Yorum metni, teslimat özellikleri, dengesizlik yönetimi ve gerçek zamanlı dağıtım.",
         ]),
-        ("16. Kaynaklar", [
+        ("16. Yapay Zeka Kullanım Beyanı", [
+            AI_STATEMENT,
+        ]),
+        ("17. Kaynaklar", [
             "Chapman et al. (2000) CRISP-DM; Breiman (2001) Random Forests; Pedregosa et al. (2011) scikit-learn.",
         ]),
     ]
